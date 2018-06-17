@@ -1,0 +1,27 @@
+{
+  "name": "learnity-prod",
+  "version": "1.0.0",
+  "description": "production",
+  "main": "src/app.js",
+  "repository": "Production",
+  "private": true,
+  "scripts": {
+    "dev": "node src/app.js"
+  },
+  "devDependencies": {
+    "body-parser": "*",
+    "cheerio": "*",
+    "cookie-session": "*",
+    "express": "*",
+    "mongoose": "*",
+    "nightmare": "github:segmentio/nightmare",
+    "passport": "*",
+    "passport-google-oauth20": "*",
+    "request": "*"
+  },
+  "author": "Ramazan Fazylov",
+  "license": "ISC",
+  "dependencies": {
+    "connect-history-api-fallback": "^1.5.0"
+  }
+}
